@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Social Media Manager & Content Creator</title>
+  <meta name="description" content="Social media manager and content creator portfolio.">
+  <meta name="theme-color" content="#0d0f12">
+  <meta property="og:title" content="Social Media Manager & Content Creator">
+  <meta property="og:description" content="Social media manager and content creator portfolio.">
+  <meta property="og:type" content="website">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff5a4d'/%3E%3Cpath d='M12 9v14l11-7z' fill='%230d0f12'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="loader" aria-hidden="true">
+    <span class="loader-name">Loading...</span>
+    <span class="loader-bar"></span>
+  </div>
+
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" data-profile="name"></a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#accounts">Accounts</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-name" data-profile="name">Your Name</h1>
+          <p class="hero-title" data-profile="title">Social Media Manager &amp; Content Creator</p>
+          <p class="hero-intro" data-profile="intro"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">View My Work</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <img id="profile-photo" src="assets/images/profile.svg" alt="" width="480" height="600" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- Next steps fill these in -->
+    <section id="accounts" class="section">
+      <div class="container">
+        <h2 class="section-title">Accounts I Manage</h2>
+        <div id="accounts-grid" class="accounts-grid"></div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="container">
+        <h2 class="section-title">Viral Contents</h2>
+        <div id="work-filters" class="filters" role="group" aria-label="Filter videos by platform"></div>
+        <div id="work-grid" class="work-grid" aria-live="polite"></div>
+        <div class="work-more" hidden>
+          <button id="work-toggle" class="btn btn-ghost" type="button" aria-expanded="false" aria-controls="work-grid">View More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <div id="services-grid" class="services-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Work With Me</h2>
+        <div id="contact-body"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> <span data-profile="name">Your Name</span></p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
