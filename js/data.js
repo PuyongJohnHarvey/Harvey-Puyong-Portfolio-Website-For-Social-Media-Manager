@@ -10,13 +10,14 @@ const profile = {
 // platform: "tiktok" | "youtube" | "facebook"
 const accounts = [
   { platform: "tiktok",   handle: "@meowish.dev", avatar: "Assets/Meowish profile.jpeg", followers: "152k+", url: "https://www.tiktok.com/@meowish.dev" },
-  { platform: "tiktok",   handle: "@Frontiend", avatar: "Assets/Frontiend-profile.jpeg", followers: "13k+", url: "https://www.tiktok.com/@frontiend" },
-  { platform: "youtube",  handle: "@Meowish", avatar: "Assets/Meowish-yt.jpg", followers: "9.4k+", url: "https://www.youtube.com/@zensei-xg4bw" },
   { platform: "facebook", handle: "@Frontiend.dev",    avatar: "Assets/Frontiend-profile.jpeg", followers: "11.5k+", url: "https://www.facebook.com/people/Frontienddev/61590651202388/?rdid=iUTaOgbSwGKLvfzH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1F1rHARTte" }
+  { platform: "tiktok",   handle: "@Frontiend", avatar: "Assets/Frontiend-profile.jpeg", followers: "13.1k+", url: "https://www.tiktok.com/@frontiend" },
+  { platform: "youtube",  handle: "@Meowish", avatar: "Assets/Meowish-yt.jpg", followers: "9.4k+", url: "https://www.youtube.com/@zensei-xg4bw" }
 ];
 
 const videos = [
   { platform: "tiktok",   title: "Interactive Reptile",   thumbnail: "Assets/interactive-reptile-Cover.jpg", views: "11.9M", url: "https://www.tiktok.com/@meowish.dev/video/7533931866181750034?is_from_webapp=1&sender_device=pc&web_id=7699395314142742037" },
+  { platform: "tiktok",   title: "CSS Coding Meme",   thumbnail: "Assets/CSS-Coding-Meme-Thumbnail.jpg", views: "1.2M", url: "https://www.tiktok.com/@frontiend/video/7690579640125099272?is_from_webapp=1&sender_device=pc&web_id=7666691149067961877" },
   { platform: "tiktok",  title: "Interactive Dragon",  thumbnail: "Assets/Interactive-Dragon-Thumbnail.jpg", views: "3.6M", url: "https://www.tiktok.com/@meowish.dev/video/7427781630796025093?is_from_webapp=1&sender_device=pc&web_id=7699395314142742037" },
   { platform: "tiktok",  title: "Heart Animation",  thumbnail: "Assets/Heart-Particle-Thumbnail.jpg", views: "4.4M", url: "https://www.tiktok.com/@meowish.dev/video/7479008884133285141?is_from_webapp=1&sender_device=pc&web_id=7699395314142742037" },
   { platform: "tiktok",  title: "Interactive Whale",  thumbnail: "Assets/Interactive-Whale-Cover.jpg", views: "2.8M", url: "https://www.tiktok.com/@meowish.dev/video/7458606952403258631?is_from_webapp=1&sender_device=pc&web_id=7699395314142742037" },
@@ -27,7 +28,6 @@ const videos = [
   { platform: "facebook",  title: "Birthday Cake Animation",  thumbnail: "Assets/Birthday-Cake-Thumbnail.jpg", views: "935k", url: "https://www.facebook.com/share/r/1E3PHvhxo8/" },
   { platform: "facebook",  title: "Birthday Cake Animation 2",  thumbnail: "Assets/Birthday-Cake-2-Thumbnail.jpg", views: "821k", url: "https://www.facebook.com/share/r/19oJZnymBQ/" },
   { platform: "facebook", title: "Spiderman Code", thumbnail: "Assets/Spiderman-Code-Thumbnail.jpg", views: "485k", url: "https://www.facebook.com/share/r/1FjSJFF8wD/" },
-  { platform: "tiktok",   title: "CSS Coding Meme",   thumbnail: "Assets/CSS-Coding-Meme-Thumbnail.jpg", views: "1.2M", url: "https://www.tiktok.com/@frontiend/video/7690579640125099272?is_from_webapp=1&sender_device=pc&web_id=7666691149067961877" },
   { platform: "tiktok",   title: "Blue Heart Particles",   thumbnail: "Assets/Blue-Heart-Particles-Thumbnail.jpg", views: "1M", url: "https://www.tiktok.com/@frontiend/video/7677889576668515592?is_from_webapp=1&sender_device=pc&web_id=7666691149067961877" },
   { platform: "youtube",   title: "Love Letter",   thumbnail: "Assets/Love-Letter-YT-Thumbnail-Cover.jpg", views: "366k", url: "https://youtube.com/shorts/ZbXGjbdh3qg?si=vppL-5MVnHh4cj4k" },
 ];
