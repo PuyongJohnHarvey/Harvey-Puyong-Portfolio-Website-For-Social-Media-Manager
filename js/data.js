@@ -10,7 +10,7 @@ const profile = {
 // platform: "tiktok" | "youtube" | "facebook"
 const accounts = [
   { platform: "tiktok",   handle: "@meowish.dev", avatar: "Assets/Meowish profile.jpeg", followers: "152k+", url: "https://www.tiktok.com/@meowish.dev" },
-  { platform: "facebook", handle: "@Frontiend.dev",    avatar: "Assets/Frontiend-profile.jpeg", followers: "11.5k+", url: "https://www.facebook.com/people/Frontienddev/61590651202388/?rdid=iUTaOgbSwGKLvfzH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1F1rHARTte" }
+  { platform: "facebook", handle: "@Frontiend.dev",    avatar: "Assets/Frontiend-profile.jpeg", followers: "11.5k+", url: "https://www.facebook.com/people/Frontienddev/61590651202388/?rdid=iUTaOgbSwGKLvfzH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1F1rHARTte" },
   { platform: "tiktok",   handle: "@Frontiend", avatar: "Assets/Frontiend-profile.jpeg", followers: "13.1k+", url: "https://www.tiktok.com/@frontiend" },
   { platform: "youtube",  handle: "@Meowish", avatar: "Assets/Meowish-yt.jpg", followers: "9.4k+", url: "https://www.youtube.com/@zensei-xg4bw" }
 ];
