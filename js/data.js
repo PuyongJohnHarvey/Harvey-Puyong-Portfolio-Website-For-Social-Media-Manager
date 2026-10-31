@@ -31,6 +31,7 @@ const videos = [
   { platform: "facebook",  title: "Birthday Cake Animation 2",  thumbnail: "Assets/Birthday-Cake-2-Thumbnail.jpg", views: "821k", url: "https://www.facebook.com/share/r/19oJZnymBQ/" },
   { platform: "facebook", title: "Spiderman Code", thumbnail: "Assets/Spiderman-Code-Thumbnail.jpg", views: "485k", url: "https://www.facebook.com/share/r/1FjSJFF8wD/" },
   { platform: "tiktok",   title: "Blue Heart Particles",   thumbnail: "Assets/Blue-Heart-Particles-Thumbnail.jpg", views: "1M", url: "https://www.tiktok.com/@frontiend/video/7677889576668515592?is_from_webapp=1&sender_device=pc&web_id=7666691149067961877" },
+  { platform: "instagram", title: "Dino Game Hack using Arduino",   thumbnail: "Assets/Dino-Game-Hack-using-Arduino-Thumbnail.png", views: "4.3M", url: "https://www.instagram.com/reel/Dc3in6uiXae/?utm_source=ig_web_copy_link&obrf=NTc4MTIwNjQ2YQ==" },
   { platform: "youtube",   title: "Love Letter",   thumbnail: "Assets/Love-Letter-YT-Thumbnail-Cover.jpg", views: "366k", url: "https://youtube.com/shorts/ZbXGjbdh3qg?si=vppL-5MVnHh4cj4k" },
 ];
 
