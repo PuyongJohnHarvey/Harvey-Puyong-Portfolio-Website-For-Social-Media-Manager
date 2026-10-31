@@ -13,6 +13,7 @@ const accounts = [
   { platform: "tiktok",   handle: "@meowish.dev", avatar: "Assets/Meowish profile.jpeg", followers: "152k+", url: "https://www.tiktok.com/@meowish.dev" },
   { platform: "facebook", handle: "@Frontiend.dev",    avatar: "Assets/Frontiend-profile.jpeg", followers: "11.5k+", url: "https://www.facebook.com/people/Frontienddev/61590651202388/?rdid=iUTaOgbSwGKLvfzH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1F1rHARTte" },
   { platform: "facebook", handle: "@Yumzzy", avatar: "Assets/Yumzzy-profile.jpg", followers: "133", url: "https://www.facebook.com/share/19VU95Fh67/" },
+  { platform: "instagram", handle: "@takagi.dev", avatar: "Assets/Frontiend-profile.jpeg", followers: "1.1k+", url: "https://www.instagram.com/takagi.dev?mdxt=MTJtNnVtNTg1dzR5bw==" },
   { platform: "youtube",  handle: "@Meowish", avatar: "Assets/Meowish-yt.jpg", followers: "9.4k+", url: "https://www.youtube.com/@zensei-xg4bw" }
 ];
 
